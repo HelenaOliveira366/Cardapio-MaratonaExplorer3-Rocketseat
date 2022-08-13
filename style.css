@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: #143F6B;
+    --orange: #F55353;
+    --black: #252525;
+    --green: #4E9F3D;
+    --white: #EEEEEE;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/*DEFININDO AS MEDIDAS E POSIÇÕES DAS CAIXAS PRINCIPAIS*/
+header, section, footer{
+    /*Centralizar a caixa do cabeçalho*/
+    max-width: 300px;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+h1, h2, h3, .price{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    /*Centralizar o texto do cabeçalho*/
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1{
+    color: var(--blue);
+}
+
+header h1 span{
+    color: var(--orange);
+}
+
+header p{
+    color: var(--black);
+    font-weight: 300;
+}
+
+section h2{
+    color: var(--white);
+    background: var(--blue);
+
+    /*Centralização dos subtítulos*/
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul li{
+    margin-bottom: 0.5rem;
+
+    /*Esta propriedade vai alinhar 2 divs ao lado da outra - O preço está dentro de uma div*/
+    display: flex;
+}
+
+li .details{
+    max-width: 240px;
+}
+
+section h3{
+    color: var(--orange);
+}
+
+section p{
+    color: var(--black);
+}
+
+section strong{
+    color: var(--green);
+}
+
+footer{
+    background: var(--orange);
+    color: var(--white);
+
+    text-align: center;
+    
+    /*Deixar o rodapé um pouco espaçado do cardápio*/
+    margin-top: 1rem;
+}
+
+footer p{
+    line-height: 1.5rem;
+    font-weight: 300;
+}
