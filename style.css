@@ -15,7 +15,7 @@
 }
 
 /*DEFININDO AS MEDIDAS E POSIÇÕES DAS CAIXAS PRINCIPAIS*/
-header, section, footer{
+header, section{
     /*Centralizar a caixa do cabeçalho*/
     max-width: 300px;
     padding: 1rem 0;
@@ -91,6 +91,7 @@ footer{
     
     /*Deixar o rodapé um pouco espaçado do cardápio*/
     margin-top: 1rem;
+    padding: 1rem 0;
 }
 
 footer p{
